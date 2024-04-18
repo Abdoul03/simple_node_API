@@ -67,7 +67,7 @@ app.delete("/api/product/:id", async (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://samabdoul03:0zIE4KgwDssTr7NL@backenddb.3p4pfso.mongodb.net/simple node API?retryWrites=true&w=majority&appName=BackendDB"
+    "mongodb+srv://samabdoul03:0zIE4KgwDssTr7NL@backenddb.3p4pfso.mongodb.net/BackendDB?retryWrites=true&w=majority&appName=BackendDB"
   )
   .then(() => {
     console.log("Connected to database!");
